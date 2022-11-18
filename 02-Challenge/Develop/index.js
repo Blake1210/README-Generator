@@ -51,7 +51,15 @@ const questions = [
 function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions).then((answers) => {
+        console.log(generateMarkdown(answers))
+        FileSystem.writeFile('sample.md', generateMarkdown(answers), error =>{
+            if (error) {console.log(error)}
+        })
+
+    })
+};
 
 // Function call to initialize app
 init();
