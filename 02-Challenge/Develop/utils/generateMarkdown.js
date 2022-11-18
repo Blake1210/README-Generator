@@ -24,6 +24,21 @@ function generateMarkdown(data) {
   - [Questions](#Questions)
   - [License](#License)
 
+##Desripction
+${data.description}
+
+##Installation
+${data.installation}
+
+##Contributions
+${data.contributions}
+
+##Testing
+${data.testing}
+
+##Questions
+${data.questions}
+
 `;
 }
 
