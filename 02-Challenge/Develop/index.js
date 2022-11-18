@@ -30,6 +30,21 @@ const questions = [
         name: "usage",
         message: "How should this project be used?"
     },
+    {
+        type: "input",
+        name: "contributions",
+        message: "List the contribution guidelines for your project."
+    },
+    {
+        type: "input",
+        name: "testing",
+        message: "Test Instructions:"
+    },
+    {
+        type: "input",
+        name: "questions",
+        message: "Please enter your Github username and link:"
+    }
 ];
 
 // TODO: Create a function to write README file
