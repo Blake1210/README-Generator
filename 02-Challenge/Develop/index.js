@@ -1,7 +1,8 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer')
-
 const generateMarkdown = require('./utils/generateMarkdown')
+const fs = require('fs')
+
 // TODO: Create an array of questions for user input
 const license = {
     'bsd3' : '[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)',
