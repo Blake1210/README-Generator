@@ -32,6 +32,12 @@ const questions = [
         message: "How should this project be used?"
     },
     {
+        type: "list",
+        message: "Enter type of license: ",
+        name: "license",
+        choices: ["MIT", "Apache_2.0", "GNU GPL v3","No License"],
+    },
+    {
         type: "input",
         name: "contributions",
         message: "List the contribution guidelines for your project."
